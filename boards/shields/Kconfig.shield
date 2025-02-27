@@ -1,0 +1,5 @@
+config SHIELD_SSBX_CORNE_LEFT
+    def_bool $(shields_list_contains,ssbx_corne_left)
+
+config SHIELD_SSBX_CORNE_RIGHT
+    def_bool $(shields_list_contains,ssbx_corne_right)
